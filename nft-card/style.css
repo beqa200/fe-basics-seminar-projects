@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #0D192C;
+    font-family: "Outfit";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nft-card {
+    background-color: #15263F;
+    width: 350px;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    margin-top: 24px;
+}
+
+h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.description {
+    color:  #8BACD9;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.eth, .clock {
+    display: flex;
+    align-items: center;
+    gap: 6px
+}
+
+.eth span {
+    color:  #00FFF8;
+    font-weight: 600;
+}
+
+.clock span {
+    color: #8BACD9;
+    font-weight: 400;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.profile img {
+    width: 33px;
+}
+
+.profile p {
+    color: #8BACD9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile p span {
+    color: #FFF
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #2E405A;
+    margin-top: 24px;
+}
